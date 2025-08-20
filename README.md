@@ -47,34 +47,35 @@ npm test
 This will execute all unit and integration tests using Jest + React Testing Library.
 
 ### Project Structure
-
 lead-management/
 ├─ app/
-│ ├─ layout.tsx # provides foundational layout for entire page
-│ ├─ page.tsx # entr point for the app; holds the form
-│ ├─ thank-you/page.tsx # called when form submitted
-│ └─ api/
-│ └─ leads/
-│ └─ [id].ts # route for specific lead; supports PATCH
-│ └─ route.ts # route for all leads; supports GET and POST
+│  ├─ layout.tsx           # Foundational layout for entire app
+│  ├─ page.tsx             # Entry point; holds the form
+│  ├─ thank-you/
+│  │  └─ page.tsx          # Page shown after form submission
+│  └─ api/
+│     └─ leads/
+│        ├─ [id].ts        # API route for specific lead (PATCH)
+│        └─ route.ts       # API route for all leads (GET, POST)
 ├─ components/
-├─ ├─ **test**
-│ ├─ LeadForm.tsx
-│ ├─ LeadHeader.tsx
-│ └─ LeadBanner.tsx
+│  └─ test/
+│     ├─ LeadForm.tsx
+│     ├─ LeadHeader.tsx
+│     └─ LeadBanner.tsx
 ├─ lib/
-│ └─ dbConnect.ts # establishes db connection
+│  └─ dbConnect.ts         # DB connection utility
 ├─ models/
-│ └─ lead.ts
+│  └─ lead.ts
 ├─ types/
-│ └─ lead.ts
+│  └─ lead.ts
 ├─ theme/
-│ └─ theme.ts # holds the theme of the app
+│  └─ theme.ts             # App theme
 ├─ public/
-│ ├─ dice.png
-│ └─ heart.png
+│  ├─ dice.png
+│  └─ heart.png
 ├─ package.json
 └─ tsconfig.json
+
 
 ### Technologies Used
 
