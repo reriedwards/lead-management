@@ -47,7 +47,8 @@ npm test
 This will execute all unit and integration tests using Jest + React Testing Library.
 
 ### Project Structure
-```plaintext
+```
+
 lead-management/
 ├─ app/
 │  ├─ layout.tsx           # Foundational layout for entire app
