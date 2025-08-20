@@ -17,7 +17,7 @@ Before getting started, make sure you have:
 2. Open a terminal in the project folder.
 3. Install the dependencies:
 
-```bash
+```
 npm install
 ```
 
@@ -30,7 +30,8 @@ npm install
 
 ### Running the App
 
-```npm run dev
+```
+npm run dev
 
 ```
 
@@ -38,7 +39,8 @@ Then open http://localhost:3000 in your browser.
 
 ### Running the Tests
 
-```npm test
+```
+npm test
 
 ```
 
