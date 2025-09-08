@@ -1,4 +1,4 @@
-# App Reviews - React App
+# Lead Management - React App
 
 A React app for accepting and managing leads . This project was set up Next.js [https://nextjs.org/docs] for fast development and modern build tooling.
 
