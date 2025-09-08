@@ -126,8 +126,3 @@ lead-management/
   Why we use it: Provides schema validation, type safety, and helpers for working with MongoDB. Makes CRUD operations more predictable and maintainable. Super easy to setup and use.
   Considerations: Adds an extra layer on top of MongoDB, which might be unnecessary for very simple queries. Connection caching is important in serverless environments to prevent multiple connections.
 
-### Challenges Experienced
-
-[File/Upload] - This was one of the requirements listed. However, due to time constraints, I did not manage to accomplish setting it up. I ran into isses with multipart form data and testing, which took a significant amount of time to debug.
-
-[JsonForms] - This was one of the requirements listed. However I found the setup similar to react-hook-form in terms of their declarative setups. I chose react-hook-form because of its superior flexibility.
